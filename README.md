@@ -1,5 +1,9 @@
 # pi-auto-thinking
 
+[![npm version](https://img.shields.io/npm/v/pi-auto-thinking.svg)](https://www.npmjs.com/package/pi-auto-thinking)
+[![Tests](https://github.com/aesisify/pi-auto-thinking/actions/workflows/test.yml/badge.svg)](https://github.com/aesisify/pi-auto-thinking/actions/workflows/test.yml)
+[![license: MIT](https://img.shields.io/npm/l/pi-auto-thinking.svg)](./LICENSE)
+
 A [pi](https://pi.dev) extension that auto-sets the thinking level each turn via
 an **online prompt-difficulty classifier**. The idea is borrowed from
 [oh-my-pi](https://github.com/can1357/oh-my-pi)'s `auto` thinking level.
@@ -26,6 +30,8 @@ Or from git:
 ```bash
 pi install git:github.com/aesisify/pi-auto-thinking
 ```
+
+> Published with SLSA provenance — verify with `npm audit signatures`.
 
 ## Configure
 

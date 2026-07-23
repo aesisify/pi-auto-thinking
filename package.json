@@ -1,10 +1,13 @@
 {
 	"name": "pi-auto-thinking",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Pi extension that auto-sets the thinking level each turn via an online prompt-difficulty classifier.",
 	"author": "aesisify",
 	"license": "MIT",
 	"type": "module",
+	"engines": {
+		"node": ">=22"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/aesisify/pi-auto-thinking.git"

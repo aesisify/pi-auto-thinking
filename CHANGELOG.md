@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.2] - 2026-07-24
+
+### Added
+- `engines.node` (`>=22`) in `package.json`.
+- CI badges + provenance note in README.
+
+### Changed
+- Release workflow now also cuts a GitHub Release with auto-generated notes.
+
 ## [0.1.1] - 2026-07-24
 
 ### Fixed

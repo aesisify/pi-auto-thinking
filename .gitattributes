@@ -1,0 +1,4 @@
+# Normalize all text files to LF in the repo and on checkout, on every platform.
+# Without this, Windows checkouts get CRLF (core.autocrlf) and Biome's LF-only
+# formatter flags every file. Fresh CI checkouts then land LF cross-platform.
+* text=auto eol=lf
